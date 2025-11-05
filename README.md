@@ -1,10 +1,13 @@
 # Project Idea Managemen System
 
-## simple intro
-todo
 ## used tools
-todo
+
+Flutter
+
 ## project structure
+
 todo
+
 ## used tools
+
 todo
