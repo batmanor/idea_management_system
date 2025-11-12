@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:splash_view/feature/login/presentation/home_page.dart';
 
+import '../../../../pages/login_page.dart';
+
 class SplashViewBody extends StatefulWidget {
   @override
   _SplashViewBodyState createState() => _SplashViewBodyState();
@@ -88,7 +90,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
         Future.delayed(Duration(milliseconds: 500), () {
           Navigator.of(
             context,
-          ).push(MaterialPageRoute(builder: (context) => HomePage()));
+          ).push(MaterialPageRoute(builder: (context) => const LoginPage()));
         });
       }
     });
